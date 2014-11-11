@@ -4,8 +4,9 @@ DEPENDENCIES
     revision: 2777688e89cf20d73981172866b1ede3918e5fec
   rails_secrets_from_s3
     git: https://github.com/KJoyner/rails_secrets_from_s3.git
-    revision: 803a49e8406bfd5206834852239c06c9167063ce
+    revision: 01293d2577874ee94b037986420c5a86d3a04b2b
 
 GRAPH
   citadel (1.0.2)
-  rails_secrets_from_s3 (0.1.0)
+  rails_secrets_from_s3 (0.1.1)
+    citadel (>= 0.0.0)
