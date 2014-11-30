@@ -7,8 +7,10 @@ cookbook 'opsworks_sidekiq',            git: 'https://github.com/KJoyner/opswork
 cookbook 'rails_secrets_from_s3',       git: 'https://github.com/KJoyner/rails_secrets_from_s3.git'
 
 # Support for ElasticSearch
+cookbook 'apt'
 cookbook 'ark'
 cookbook 'build-essential'
 cookbook 'java'
 cookbook 'monit'
+cookbook 'nginx'
 cookbook 'xml'
