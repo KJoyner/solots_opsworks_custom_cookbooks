@@ -5,3 +5,10 @@ cookbook 'opsworks_precompile_assets',  git: 'https://github.com/KJoyner/opswork
 cookbook 'opsworks_rails_redis_config', git: 'https://github.com/KJoyner/opsworks_rails_redis_config.git'
 cookbook 'opsworks_sidekiq',            git: 'https://github.com/KJoyner/opsworks_sidekiq.git'
 cookbook 'rails_secrets_from_s3',       git: 'https://github.com/KJoyner/rails_secrets_from_s3.git'
+
+# Support for ElasticSearch
+cookbook 'ark'
+cookbook 'build-essential'
+cookbook 'java'
+cookbook 'monit'
+cookbook 'xml'
